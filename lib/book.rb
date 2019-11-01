@@ -48,16 +48,3 @@ class Book
     end
 end
 
-class Shoe
-    def initialize(name)
-        @name = name
-    end
-
-    def brand= (b_name)
-        @b_name = b_name
-    end
-
-    def brand
-        @b_name
-    end
-end
